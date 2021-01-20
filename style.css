@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+Body{
+    font-family: 'open sans', sans-serif;
+}
+header{
+    background-image: url(../img/banner.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+h1{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 400;
+    padding: 30px 0;
+}
+h2,p{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    display: block;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline;
+    justify-content: space-between;
+}
+@media(min-width:768px){
+    .site-header{
+        display: flex;
+        justify-content: space-between;
+    }
+}
